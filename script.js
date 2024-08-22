@@ -70,11 +70,6 @@ allPriorityColors.forEach((colorElem, idx) => {
 })
 
 addBtn.addEventListener("click", (e) => {
-    // Display Modal
-    // Generate ticket
-
-    // AddFlag, true -> Modal Display
-    // AddFlag, False -> Modal None
     addFlag = !addFlag;
     if (addFlag) {
         modalCont.style.display = "flex";
